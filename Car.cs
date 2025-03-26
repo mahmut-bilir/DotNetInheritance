@@ -12,4 +12,8 @@ public class Car : Vehicle
         ViewInfo(); // Calling a method in the Base class
         Console.WriteLine("Door count: 0" + DoorCount);
     }
+    public void WriteBrand()
+    {
+        Console.WriteLine($"This car belongs to a {Brand} brand.");
+    }
 }

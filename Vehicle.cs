@@ -1,6 +1,6 @@
 public class Vehicle
 {
-    public string Brand;
+    protected string Brand; // 'Protected' are accessible from derived class
     public int ModelYera;
     public Vehicle(string brand, int modelYear)
     {
