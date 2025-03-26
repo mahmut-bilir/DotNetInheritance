@@ -1,6 +1,12 @@
 public class Car : Vehicle
 {
     public int DoorCount;
+
+    public Car(string brand, int modelYear, int doorCount) : base(brand, modelYear)
+    {
+        DoorCount = doorCount;
+
+    }
     public void ViewCarInfo()
     {
         ViewInfo(); // Calling a method in the Base class

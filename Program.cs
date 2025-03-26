@@ -1,5 +1,3 @@
-﻿Car car = new Car();
-car.Brand = "Audi";
-car.ModelYera = 2023;
-car.DoorCount = 5;
+﻿Car car = new Car("Toyota", 2024, 4);
+
 car.ViewCarInfo();
