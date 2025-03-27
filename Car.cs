@@ -16,4 +16,8 @@ public class Car : Vehicle
     {
         Console.WriteLine($"This car belongs to a {Brand} brand.");
     }
+    public override void Drive()
+    {
+        Console.WriteLine("The car is being driven...");
+    }
 }

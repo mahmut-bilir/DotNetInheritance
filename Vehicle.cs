@@ -13,4 +13,9 @@ public class Vehicle
         Console.WriteLine($"Brand:{Brand}, Model Year: {ModelYera}");
     }
 
+    public virtual void Drive()
+    {
+        Console.WriteLine("The Vehicle is being driven...");
+    }
+
 }

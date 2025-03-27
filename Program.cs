@@ -2,3 +2,7 @@
 
 car.ViewCarInfo();
 car.WriteBrand();
+
+Vehicle vehicle = new Vehicle("BMW", 2025);
+vehicle.Drive(); // Calls the base class method.
+car.Drive();     //Calls the derived class method.
