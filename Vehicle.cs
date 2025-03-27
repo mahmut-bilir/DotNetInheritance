@@ -1,3 +1,5 @@
+
+//"sealed class Vehicle" and "public class Car :Vehicle" ------>Error: Vehicle class connot be inherited
 public class Vehicle
 {
     protected string Brand; // 'Protected' are accessible from derived class
